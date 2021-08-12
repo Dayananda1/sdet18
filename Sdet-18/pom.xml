@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Sdet-18</groupId>
+  <artifactId>Sdet-18</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  <!--  to work with rest API testing & validation -->
+    <dependency>    
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>4.3.0</version>
+  </dependency>
+  <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+  <dependency>
+   <groupId>com.googlecode.json-simple</groupId>
+   <artifactId>json-simple</artifactId>
+   <version>1.1.1</version>
+  </dependency>
+  
+  <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-mapper-asl</artifactId>
+      <version>1.9.13</version>
+  </dependency>
+
+  <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+  <dependency>
+   <groupId>org.testng</groupId>
+   <artifactId>testng</artifactId>
+   <version>7.1.0</version>
+   <scope>test</scope>
+  </dependency>
+
+  
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
+  <dependency>
+   <groupId>org.seleniumhq.selenium</groupId>
+   <artifactId>selenium-server</artifactId>
+   <version>3.141.59</version>
+  </dependency>
+  
+  <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.23</version>
+</dependency>
+  
+
+ </dependencies>
+ <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.0.0-M5</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+  
+</project>

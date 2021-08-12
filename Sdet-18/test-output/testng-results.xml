@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-03T11:22:22 IST" name="Default suite" finished-at="2021-08-03T11:23:04 IST" duration-ms="41963">
+    <groups>
+    </groups>
+    <test started-at="2021-08-03T11:22:22 IST" name="Default test" finished-at="2021-08-03T11:23:04 IST" duration-ms="41963">
+      <class name="com.ReqestChaining.Verification_wrt_Framework">
+        <test-method is-config="true" signature="configBeforeSuite()[pri:0, instance:com.ReqestChaining.Verification_wrt_Framework@43dac38f]" started-at="2021-08-03T11:22:13 IST" name="configBeforeSuite" finished-at="2021-08-03T11:22:22 IST" duration-ms="8937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeSuite -->
+        <test-method signature="createProject()[pri:0, instance:com.ReqestChaining.Verification_wrt_Framework@43dac38f]" started-at="2021-08-03T11:22:22 IST" name="createProject" finished-at="2021-08-03T11:23:04 IST" duration-ms="41768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method is-config="true" signature="configAfterSuite()[pri:0, instance:com.ReqestChaining.Verification_wrt_Framework@43dac38f]" started-at="2021-08-03T11:23:04 IST" name="configAfterSuite" finished-at="2021-08-03T11:23:05 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterSuite -->
+      </class> <!-- com.ReqestChaining.Verification_wrt_Framework -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
